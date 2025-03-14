@@ -22,15 +22,14 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager as CM
 
-# Add folder Path of your resume
-originalResumePath = "original_resume.pdf"
+originalResumePath = "./mahesh_resume.pdf"
 # Add Path where modified resume should be saved
-modifiedResumePath = "modified_resume.pdf"
+modifiedResumePath = "./mahesh_resume.pdf"
 
 # Update your naukri username and password here before running
-username = "Type Your email ID Here"
-password = "Type Your Password Here"
-mob = "1234567890"  # Type your mobile number here
+username = "mahesh610282@gmail.com"
+password = "Mai@9948"
+mob = "8977510282"  # Type your mobile number here
 
 # False if you dont want to add Random HIDDEN chars to your resume
 updatePDF = True
